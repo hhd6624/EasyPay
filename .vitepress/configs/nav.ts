@@ -2,13 +2,9 @@ import type { DefaultTheme } from 'vitepress'
 
 // 导航栏设置
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '说明文档', link: '/Jj/instructions', activeMatch: '^/Jj/' },
-  { text: '通道文档', link: '/TD/Zfb/tutorial', activeMatch: '^/TD/' },
-  {
-    text: '自挂文档',
-    link: '/RJ/App/monitor',
-    activeMatch: '^/RJ/'
-  },
+  { text: '帮助中心', link: '/Bz/Introduction', activeMatch: '^/Bz/' },
+  { text: '通道配置', link: '/TD/Zfb/tutorial', activeMatch: '^/TD/' },
+  { text: '挂机配置', link: '/RJ/App/monitor', activeMatch: '^/RJ/' },
   // { text: 'VMware ESXi', link: '/ESXi/Install/guide', activeMatch: '^/ESXi/' },
   // { text: '把玩服务器', link: '/vps/settings/Ubuntu', activeMatch: '^/vps/' },
   // {

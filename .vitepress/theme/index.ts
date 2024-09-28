@@ -50,9 +50,9 @@ export default {
     imageViewer(route)
     giscusTalk({
         repo: 'hhd66624/Jianfu', //仓库
-        repoId: 'R_kgDOM2-PpA', //仓库ID
+        repoId: 'R_kgDOM4TsPg', //仓库ID
         category: 'Announcements', // 讨论分类
-        categoryId: 'DIC_kwDOM2-PpM4Cixvt', //讨论分类ID
+        categoryId: 'DIC_kwDOM4TsPs4Ci3eJ', //讨论分类ID
         mapping: 'pathname',
         inputPosition: 'bottom',
         lang: 'zh-CN',

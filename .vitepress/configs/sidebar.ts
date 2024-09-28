@@ -2,7 +2,7 @@ import type { DefaultTheme } from 'vitepress'
 
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/Jj/': { base: '/Jj/', items: Sidebar_Jj() },
+  '/Bz/': { base: '/Bz/', items: Sidebar_Bz() },
   '/RJ/': { base: '/RJ/', items: Sidebar_RJ() },
   '/TD/': { base: '/TD/', items: Sidebar_TD() },
 }
@@ -10,7 +10,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 export function Sidebar_RJ() {
   return [
     {
-      text: 'PC端软件监控配置 文档',
+      text: 'PC端软件监控配置',
       collapsed: false,
       base: '/RJ/Pc/',
       items: [
@@ -18,7 +18,7 @@ export function Sidebar_RJ() {
       ]
     },
     {
-      text: '手机APP监控配置 文档',
+      text: '手机APP监控配置',
       collapsed: false,
       base: '/RJ/App/',
       items: [
@@ -28,20 +28,17 @@ export function Sidebar_RJ() {
   ]
 }
 
-export function Sidebar_Jj() {
+export function Sidebar_Bz() {
   return [
     {
-      // text: '梅林操作文档',
-      // collapsed: true,
-      // base: '/asus/',
-      // items: [
-      //   { text: '刷机需知', link: 'Flashing-prerequisites' },
-      //   { text: '固件平台介绍', link: 'Firmware-platform-introduction' },
-      //   { text: 'fancyss', link: 'fancyss' },
-      //   { text: 'Merlin Clash', link: 'Merlin-Clash' },
-      //   { text: '官改/梅林固件 常用命令集合', link: 'common-commands' },
-      //   { text: '提示检测非法关键词', link: 'illegal-keywords' }
-      // ]
+      text: '系统帮助',
+      collapsed: false,
+      base: '/Bz/',
+      items: [
+        { text: '系统介绍', link: 'Introduction' },
+        { text: '收费标准', link: 'charge' },
+        { text: '通道解答', link: 'channel' },
+      ]
     }
   ]
 }
@@ -49,8 +46,8 @@ export function Sidebar_Jj() {
 export function Sidebar_TD() {
   return [
     {
-      text: '微信支付通道配置 文档',
-      collapsed: true,
+      text: '微信支付通道配置',
+      collapsed: false,
       base: '/TD/Wx/',
       items: [
         { text: '微信个人码-监控端', link: 'personal-code' },
@@ -65,8 +62,8 @@ export function Sidebar_TD() {
       ]
     },
     {
-      text: '支付宝支付通道配置 文档',
-      collapsed: true,
+      text: '支付宝支付通道配置',
+      collapsed: false,
       base: '/TD/Zfb/',
       items: [
         { text: '支付宝公私匙申请', link: 'currency' },
@@ -81,8 +78,8 @@ export function Sidebar_TD() {
       ]
     },
     {
-      text: 'QQ支付通道配置 文档',
-      collapsed: true,
+      text: 'QQ支付通道配置',
+      collapsed: false,
       base: '/TD/Qq/',
       items: [
         { text: 'QQ个人码-监控端', link: 'personal-code' },
@@ -91,8 +88,8 @@ export function Sidebar_TD() {
       ]
     },
     {
-      text: '网银支付通道配置 文档',
-      collapsed: true,
+      text: '网银支付通道配置',
+      collapsed: false,
       base: '/TD/Wy/',
       items: [
         { text: '京东收银台-监控端', link: 'JD-pay' },
@@ -103,16 +100,16 @@ export function Sidebar_TD() {
       ]
     },
     {
-      text: 'PayPal 支付通道配置 文档',
+      text: 'PayPal 支付通道配置',
       link: 'Vercel-CLI',
-      collapsed: true,
+      collapsed: false,
       base: '/TD/PayPal/',
       items: []
     },
     {
-      text: 'USDT 支付通道配置 文档',
+      text: 'USDT 支付通道配置',
       link: 'Markdown',
-      collapsed: true,
+      collapsed: false,
       base: '/TD/USDT/',
       items: []
     }
