@@ -10,7 +10,7 @@ export default defineConfig({
   lang: 'zh-CN',
   // 站点介绍
   description:
-    '网络技术,VPS,ESXi,OpenWrt,青龙面板,风水玄学,picgo,github,图床,梅林固件,华硕,fancyss,科学上网,clash,独角数卡,homebrew,git,docker,linux,markdown,甲骨文,谷歌云,防火墙,流媒体,京东,阿里云,YouTube,Premium,机场,流媒体,解锁,线路,科学上网,梯子,特殊服务,出国服务,奈飞,Netflix,迪士尼,YouTube,油管,hulu,FlyingBird,Bridge the Wise,HBO Max,Spotify,奈飞小铺,银河录像局',
+    '简付支付,免签码支付,易支付,彩虹易支付,云支付,优码支付,简付支付系统,码支付官网,扫码支付,支付宝即时到账,微信即时到账,免签约支付,三方支付,四方支付,码支付,SH支付,SH码支付,shmpay扫码支付,易支付,支付平台,云支付,聚合支付,微信支付,源支付,支付接口,第三方支付,收款码,收款平台,支付系统,简付支付系统-行业领先的即时到账支付平台-全网最稳最安全的即时到账支付平台-提供最优质最稳定的在线支付平台，通道轮训，励志打造最稳定最安全的支付系统，提供24小时全天候售后，三网免输金额秒回调，无需挂机，三网免挂会员免费送，0费率，国内高防机房不拉闸秒回调!',
   // 网站头部
   head,
   //'force-dark'强制开启深色模式 false强制开启浅色模式
