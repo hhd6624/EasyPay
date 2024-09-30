@@ -1,6 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import { EnhanceAppContext, useRoute, useData } from 'vitepress'
-import giscusTalk from 'vitepress-plugin-comment-with-giscus'
+import { EnhanceAppContext, useRoute } from 'vitepress'
 import { h } from 'vue'
 
 import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client'
@@ -31,7 +30,7 @@ export default {
       'home-hero-info-before': () => h(Announcement),
       'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
       'layout-bottom': () => h(HomeFooter, { Footer_Data }),
-      // 'doc-after': () => h(Twikoo, { Twikoo_Data }),
+      'doc-after': () => h(Twikoo, { Twikoo_Data }),
       'aside-outline-before': () => h(ShareButton)
     })
   },
@@ -45,27 +44,7 @@ export default {
     app.use(TwoslashFloatingVue)
   },
   setup() {
-    const { frontmatter } = useData()
     const route = useRoute()
     imageViewer(route)
-    giscusTalk(
-      {
-        repo: 'hhd66624/JianFu', //仓库
-        repoId: 'R_kgDOM4TsPg', //仓库ID
-        category: 'Announcements', // 讨论分类
-        categoryId: 'DIC_kwDOM4TsPs4Ci3eJ', //讨论分类ID
-        mapping: 'pathname',
-        inputPosition: 'bottom',
-        lang: 'zh-CN'
-      },
-      {
-        frontmatter,
-        route
-      },
-      //默认值为true，表示已启用，此参数可以忽略；
-      //如果为false，则表示未启用
-      //您可以使用“comment:true”序言在页面上单独启用它
-      true
-    )
   }
 }
