@@ -26,6 +26,9 @@ importers:
       lint-staged:
         specifier: ^15.2.10
         version: 15.2.10
+      twikoo:
+        specifier: ^1.6.39
+        version: 1.6.39
       viewerjs:
         specifier: ^1.11.6
         version: 1.11.6
@@ -43,8 +46,8 @@ importers:
         version: 3.5.10(typescript@5.5.4)
     devDependencies:
       '@shikijs/vitepress-twoslash':
-        specifier: ^1.20.0
-        version: 1.20.0(typescript@5.5.4)
+        specifier: ^1.21.0
+        version: 1.21.0(typescript@5.5.4)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -57,6 +60,9 @@ importers:
       vitepress-plugin-google-analytics:
         specifier: ^1.0.2
         version: 1.0.2
+      vitepress-theme-website:
+        specifier: ^1.0.8
+        version: 1.0.8(typescript@5.5.4)
 
 packages:
 
@@ -505,26 +511,26 @@ packages:
   '@shikijs/core@1.16.1':
     resolution: {integrity: sha512-aI0hBtw+a6KsJp2jcD4YuQqKpeCbURMZbhHVozDknJpm+KJqeMRkEnfBC8BaKE/5XC+uofPgCLsa/TkTk0Ba0w==}
 
-  '@shikijs/core@1.20.0':
-    resolution: {integrity: sha512-KlO3iE0THzSdYkzDFugt8SHe6FR3qNYTkmpbdW1d6xo8juQkMjybxAw/cBi2npL2eb2F4PbbnSs5Z9tDusfvyg==}
+  '@shikijs/core@1.21.0':
+    resolution: {integrity: sha512-zAPMJdiGuqXpZQ+pWNezQAk5xhzRXBNiECFPcJLtUdsFM3f//G95Z15EHTnHchYycU8kIIysqGgxp8OVSj1SPQ==}
 
-  '@shikijs/engine-javascript@1.20.0':
-    resolution: {integrity: sha512-ZUMo758uduM0Tfgzi/kd+0IKMbNdumCxxWjY36uf1DIs2Qyg9HIq3vA1Wfa/vc6HE7tHWFpANRi3mv7UzJ68MQ==}
+  '@shikijs/engine-javascript@1.21.0':
+    resolution: {integrity: sha512-jxQHNtVP17edFW4/0vICqAVLDAxmyV31MQJL4U/Kg+heQALeKYVOWo0sMmEZ18FqBt+9UCdyqGKYE7bLRtk9mg==}
 
-  '@shikijs/engine-oniguruma@1.20.0':
-    resolution: {integrity: sha512-MQ40WkVTZk7by33ces4PGK6XNFSo6PYvKTSAr2kTWdRNhFmOcnaX+1XzvFwB26eySXR7U74t91czZ1qJkEgxTA==}
+  '@shikijs/engine-oniguruma@1.21.0':
+    resolution: {integrity: sha512-AIZ76XocENCrtYzVU7S4GY/HL+tgHGbVU+qhiDyNw1qgCA5OSi4B4+HY4BtAoJSMGuD/L5hfTzoRVbzEm2WTvg==}
 
   '@shikijs/transformers@1.16.1':
     resolution: {integrity: sha512-mfbe4YMov+1eyIBU3F6BtaPmLgDkRQaVse8xsBlKTVAcNF3cbZMRCyUz2N6gJOMKLJiv9T5gapBPbRxrDMuoxA==}
 
-  '@shikijs/twoslash@1.20.0':
-    resolution: {integrity: sha512-NGaZgluqyo/P8r35/y82lhGtHjQaDlFTpmRzl/T+aNMshatcOsTvMN9uVWSNy83di1VGTxhH4ruX0xUsOAgdtg==}
+  '@shikijs/twoslash@1.21.0':
+    resolution: {integrity: sha512-91HTpoIsx6vsJZ0DE1fs/jNeEAL5xJ5hWMVPUSp3iGHxOLH59nGrOcsjSgv4lKaxeE2i6VFvnPANQ5q8I5k2AQ==}
 
-  '@shikijs/types@1.20.0':
-    resolution: {integrity: sha512-y+EaDvU2K6/GaXOKXxJaGnr1XtmZMF7MfS0pSEDdxEq66gCtKsLwQvVwoQFdp7R7dLlNAro3ijEE19sMZ0pzqg==}
+  '@shikijs/types@1.21.0':
+    resolution: {integrity: sha512-tzndANDhi5DUndBtpojEq/42+dpUF2wS7wdCDQaFtIXm3Rd1QkrcVgSSRLOvEwexekihOXfbYJINW37g96tJRw==}
 
-  '@shikijs/vitepress-twoslash@1.20.0':
-    resolution: {integrity: sha512-9/BqSp1yF0QQ5jVXX/KbIVnwaw+14NJfcw4r1RAWIVykDUvXKO16dSmdV4UlRVh6VyrtF2EFdoFCvVnllrKccQ==}
+  '@shikijs/vitepress-twoslash@1.21.0':
+    resolution: {integrity: sha512-/B/edWFxZ6Tdfj0Jj+jxJOKsHRd89NZ57tK0E68kvaWbbnBw3UaLCixDL+SvdeGFMov2uN1URXgCdBQTR6daZg==}
 
   '@shikijs/vscode-textmate@9.2.0':
     resolution: {integrity: sha512-5FinaOp6Vdh/dl4/yaOTh0ZeKch+rYS8DUb38V3GMKYVkdqzxw53lViRKUYkVILRiVQT7dcPC7VvAKOR73zVtQ==}
@@ -691,6 +697,14 @@ packages:
   '@vueuse/shared@11.0.3':
     resolution: {integrity: sha512-0rY2m6HS5t27n/Vp5cTDsKTlNnimCqsbh/fmT2LgE+aaU42EMfXo8+bNX91W9I7DDmxfuACXMmrd7d79JxkqWA==}
 
+  '@waline/api@1.0.0-alpha.8':
+    resolution: {integrity: sha512-S6pgUUfv+gcXU3hiW3PNUwiUvPy7bXmmLB/bwdU3hN5YVT5Q7CxyVSLA3oJkrNO5lcisKK1GBPv0H2W1uB0eGA==}
+    engines: {node: '>=18'}
+
+  '@waline/client@3.3.2':
+    resolution: {integrity: sha512-CK8ef5QafKt29AAz3n+bXNwzXdT/yh+pMRLxxTNH4RAMl0Wl3utqh3uA/gDpNRLWS4sOkFMASUC0ckbpeOAJNg==}
+    engines: {node: '>=18'}
+
   acorn@8.12.1:
     resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
     engines: {node: '>=0.4.0'}
@@ -717,6 +731,9 @@ packages:
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+
+  autosize@6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1072,6 +1089,16 @@ packages:
   markdown-table@3.0.3:
     resolution: {integrity: sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==}
 
+  marked-highlight@2.1.4:
+    resolution: {integrity: sha512-D1GOkcdzP+1dzjoColL7umojefFrASDuLeyaHS0Zr/Uo9jkr1V6vpLRCzfi1djmEaWyK0SYMFtHnpkZ+cwFT1w==}
+    peerDependencies:
+      marked: '>=4 <15'
+
+  marked@14.1.2:
+    resolution: {integrity: sha512-f3r0yqpz31VXiDB/wj9GaOB0a2PRLQl6vJmXiFrniNwjkKdvakqJRULhjFKJpxOchlCRiG5fcacoUZY5Xa6PEQ==}
+    engines: {node: '>= 18'}
+    hasBin: true
+
   mdast-util-find-and-replace@3.0.1:
     resolution: {integrity: sha512-SG21kZHGC3XRTSUhtofZkBzZTJNM5ecCi0SK2IMKmSXR8vO3peL+kb1O0z7Zl83jKtutG4k5Wv/W7V3/YHvzPA==}
 
@@ -1342,6 +1369,9 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
+  recaptcha-v3@1.11.3:
+    resolution: {integrity: sha512-sEE6J0RzUkS+sKEBpgCD/AqCU0ffrAVOADGjvAx9vcttN+VLK42SWMkj/J/I6vHu3Kew+xcfbBqDVb65N0QGDw==}
+
   regex@4.3.2:
     resolution: {integrity: sha512-kK/AA3A9K6q2js89+VMymcboLOlF5lZRCYJv3gzszXFHBr6kO6qLGzbm+UIugBEV8SMMKCTR59txoY6ctRHYVw==}
 
@@ -1388,8 +1418,8 @@ packages:
   shiki@1.16.1:
     resolution: {integrity: sha512-tCJIMaxDVB1mEIJ5TvfZU7kCPB5eo9fli5+21Olc/bmyv+w8kye3JOp+LZRmGkAyT71hrkefQhTiY+o9mBikRQ==}
 
-  shiki@1.20.0:
-    resolution: {integrity: sha512-MZJJ1PCFsQB1Piq+25wiz0a75yUv8Q3/fzy7SzRx5ONdjdtGdyiKwYn8vb/FnK5kjS0voWGnPpjG16POauUR+g==}
+  shiki@1.21.0:
+    resolution: {integrity: sha512-apCH5BoWTrmHDPGgg3RF8+HAAbEL/CdbYr8rMw7eIrdhCkZHdVGat5mMNlRtd1erNG01VPMIKHNQ0Pj2HMAiog==}
 
   signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
@@ -1468,16 +1498,16 @@ packages:
   twikoo@1.6.39:
     resolution: {integrity: sha512-gWM+gtZlHnlkGHL4ycQN1vLLuRxALwDrLVGcEOgkbKU3WX9qYf9zz/fFxbqCGvB/LTZLRuhLAc3EuwCtBI7VNQ==}
 
-  twoslash-protocol@0.2.11:
-    resolution: {integrity: sha512-rp+nkOWbKfJnBTDZtnIaBGjnU+4CaMhqu6db2UU7byU96rH8X4hao4BOxYw6jdZc85Lhv5pOfcjgfHeQyLzndQ==}
+  twoslash-protocol@0.2.12:
+    resolution: {integrity: sha512-5qZLXVYfZ9ABdjqbvPc4RWMr7PrpPaaDSeaYY55vl/w1j6H6kzsWK/urAEIXlzYlyrFmyz1UbwIt+AA0ck+wbg==}
 
-  twoslash-vue@0.2.11:
-    resolution: {integrity: sha512-wBwIwG0PRuv5V+1DD4Zno1j6MnaCbaY/ELops7oKSoMBTIQL720iRXppyldVVoYvti2caUA97T36XhZXHpjQyA==}
+  twoslash-vue@0.2.12:
+    resolution: {integrity: sha512-kxH60DLn2QBcN2wjqxgMDkyRgmPXsytv7fJIlsyFMDPSkm1/lMrI/UMrNAshNaRHcI+hv8x3h/WBgcvlb2RNAQ==}
     peerDependencies:
       typescript: '*'
 
-  twoslash@0.2.11:
-    resolution: {integrity: sha512-392Qkcu5sD2hROLZ+XPywChreDGJ8Yu5nnK/Moxfti/R39q0Q39MaV7iHjz92B5qucyjsQFnKMdYIzafX5T8dg==}
+  twoslash@0.2.12:
+    resolution: {integrity: sha512-tEHPASMqi7kqwfJbkk7hc/4EhlrKCSLcur+TcvYki3vhIfaRMXnXjaYFgXpoZRbT6GdprD4tGuVBEmTpUgLBsw==}
     peerDependencies:
       typescript: '*'
 
@@ -1562,6 +1592,10 @@ packages:
 
   vitepress-plugin-image-viewer@1.1.5:
     resolution: {integrity: sha512-XnAb7bhqRCJB3JsKmah6oTDMTQNUQmLID+SME9Zwg/IWbYT+zySt2HuHHeTJlfHMmYpFBhvu8ayvBM0Fu3hdVQ==}
+
+  vitepress-theme-website@1.0.8:
+    resolution: {integrity: sha512-2SZwFRHkuEKrdI4+equMZzEacWOH7QSR56/rtSs/zoQ15Qtv4ZnjQ9N8NYgAqcljwK/cJ/velul809Re8n4neg==}
+    engines: {node: '>=16.0.0'}
 
   vitepress@1.3.4:
     resolution: {integrity: sha512-I1/F6OW1xl3kW4PaIMC6snxjWgf3qfziq2aqsDoFc/Gt41WbcRv++z8zjw8qGRIJ+I4bUW7ZcKFDHHN/jkH9DQ==}
@@ -1997,54 +2031,54 @@ snapshots:
       '@shikijs/vscode-textmate': 9.2.0
       '@types/hast': 3.0.4
 
-  '@shikijs/core@1.20.0':
+  '@shikijs/core@1.21.0':
     dependencies:
-      '@shikijs/engine-javascript': 1.20.0
-      '@shikijs/engine-oniguruma': 1.20.0
-      '@shikijs/types': 1.20.0
+      '@shikijs/engine-javascript': 1.21.0
+      '@shikijs/engine-oniguruma': 1.21.0
+      '@shikijs/types': 1.21.0
       '@shikijs/vscode-textmate': 9.2.2
       '@types/hast': 3.0.4
       hast-util-to-html: 9.0.3
 
-  '@shikijs/engine-javascript@1.20.0':
+  '@shikijs/engine-javascript@1.21.0':
     dependencies:
-      '@shikijs/types': 1.20.0
+      '@shikijs/types': 1.21.0
       '@shikijs/vscode-textmate': 9.2.2
       oniguruma-to-js: 0.4.3
 
-  '@shikijs/engine-oniguruma@1.20.0':
+  '@shikijs/engine-oniguruma@1.21.0':
     dependencies:
-      '@shikijs/types': 1.20.0
+      '@shikijs/types': 1.21.0
       '@shikijs/vscode-textmate': 9.2.2
 
   '@shikijs/transformers@1.16.1':
     dependencies:
       shiki: 1.16.1
 
-  '@shikijs/twoslash@1.20.0(typescript@5.5.4)':
+  '@shikijs/twoslash@1.21.0(typescript@5.5.4)':
     dependencies:
-      '@shikijs/core': 1.20.0
-      '@shikijs/types': 1.20.0
-      twoslash: 0.2.11(typescript@5.5.4)
+      '@shikijs/core': 1.21.0
+      '@shikijs/types': 1.21.0
+      twoslash: 0.2.12(typescript@5.5.4)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@shikijs/types@1.20.0':
+  '@shikijs/types@1.21.0':
     dependencies:
       '@shikijs/vscode-textmate': 9.2.2
       '@types/hast': 3.0.4
 
-  '@shikijs/vitepress-twoslash@1.20.0(typescript@5.5.4)':
+  '@shikijs/vitepress-twoslash@1.21.0(typescript@5.5.4)':
     dependencies:
-      '@shikijs/twoslash': 1.20.0(typescript@5.5.4)
+      '@shikijs/twoslash': 1.21.0(typescript@5.5.4)
       floating-vue: 5.2.2(vue@3.5.10(typescript@5.5.4))
       mdast-util-from-markdown: 2.0.1
       mdast-util-gfm: 3.0.0
       mdast-util-to-hast: 13.2.0
-      shiki: 1.20.0
-      twoslash: 0.2.11(typescript@5.5.4)
-      twoslash-vue: 0.2.11(typescript@5.5.4)
+      shiki: 1.21.0
+      twoslash: 0.2.12(typescript@5.5.4)
+      twoslash-vue: 0.2.12(typescript@5.5.4)
       vue: 3.5.10(typescript@5.5.4)
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -2239,6 +2273,21 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
+  '@waline/api@1.0.0-alpha.8': {}
+
+  '@waline/client@3.3.2(typescript@5.5.4)':
+    dependencies:
+      '@vueuse/core': 11.0.3(vue@3.5.10(typescript@5.5.4))
+      '@waline/api': 1.0.0-alpha.8
+      autosize: 6.0.1
+      marked: 14.1.2
+      marked-highlight: 2.1.4(marked@14.1.2)
+      recaptcha-v3: 1.11.3
+      vue: 3.5.10(typescript@5.5.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+
   acorn@8.12.1: {}
 
   algoliasearch@4.24.0:
@@ -2273,6 +2322,8 @@ snapshots:
       picomatch: 2.3.1
 
   argparse@2.0.1: {}
+
+  autosize@6.0.1: {}
 
   balanced-match@1.0.2: {}
 
@@ -2657,6 +2708,12 @@ snapshots:
       uc.micro: 2.1.0
 
   markdown-table@3.0.3: {}
+
+  marked-highlight@2.1.4(marked@14.1.2):
+    dependencies:
+      marked: 14.1.2
+
+  marked@14.1.2: {}
 
   mdast-util-find-and-replace@3.0.1:
     dependencies:
@@ -3048,6 +3105,8 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
+  recaptcha-v3@1.11.3: {}
+
   regex@4.3.2: {}
 
   restore-cursor@5.1.0:
@@ -3107,12 +3166,12 @@ snapshots:
       '@shikijs/vscode-textmate': 9.2.0
       '@types/hast': 3.0.4
 
-  shiki@1.20.0:
+  shiki@1.21.0:
     dependencies:
-      '@shikijs/core': 1.20.0
-      '@shikijs/engine-javascript': 1.20.0
-      '@shikijs/engine-oniguruma': 1.20.0
-      '@shikijs/types': 1.20.0
+      '@shikijs/core': 1.21.0
+      '@shikijs/engine-javascript': 1.21.0
+      '@shikijs/engine-oniguruma': 1.21.0
+      '@shikijs/types': 1.21.0
       '@shikijs/vscode-textmate': 9.2.2
       '@types/hast': 3.0.4
 
@@ -3184,21 +3243,21 @@ snapshots:
 
   twikoo@1.6.39: {}
 
-  twoslash-protocol@0.2.11: {}
+  twoslash-protocol@0.2.12: {}
 
-  twoslash-vue@0.2.11(typescript@5.5.4):
+  twoslash-vue@0.2.12(typescript@5.5.4):
     dependencies:
       '@vue/language-core': 2.1.6(typescript@5.5.4)
-      twoslash: 0.2.11(typescript@5.5.4)
-      twoslash-protocol: 0.2.11
+      twoslash: 0.2.12(typescript@5.5.4)
+      twoslash-protocol: 0.2.12
       typescript: 5.5.4
     transitivePeerDependencies:
       - supports-color
 
-  twoslash@0.2.11(typescript@5.5.4):
+  twoslash@0.2.12(typescript@5.5.4):
     dependencies:
       '@typescript/vfs': 1.6.0(typescript@5.5.4)
-      twoslash-protocol: 0.2.11
+      twoslash-protocol: 0.2.12
       typescript: 5.5.4
     transitivePeerDependencies:
       - supports-color
@@ -3274,6 +3333,13 @@ snapshots:
   vitepress-plugin-image-viewer@1.1.5:
     dependencies:
       viewerjs: 1.11.6
+
+  vitepress-theme-website@1.0.8(typescript@5.5.4):
+    dependencies:
+      '@waline/client': 3.3.2(typescript@5.5.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
 
   vitepress@1.3.4(@algolia/client-search@5.2.3)(postcss@8.4.47)(sass@1.78.0)(search-insights@2.17.0)(typescript@5.5.4):
     dependencies:
