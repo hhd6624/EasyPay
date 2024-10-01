@@ -4,7 +4,7 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/Bz/': { base: '/Bz/', items: Sidebar_Bz() },
   '/RJ/': { base: '/RJ/', items: Sidebar_RJ() },
-  '/TD/': { base: '/TD/', items: Sidebar_TD() },
+  '/TD/': { base: '/TD/', items: Sidebar_TD() }
 }
 
 export function Sidebar_RJ() {
@@ -13,18 +13,14 @@ export function Sidebar_RJ() {
       text: 'PC端软件监控配置',
       collapsed: false,
       base: '/RJ/Pc/',
-      items: [
-        { text: 'PC监控配置', link: 'pc-monitor' },
-      ]
+      items: [{ text: 'PC监控配置', link: 'pc-monitor' }]
     },
     {
       text: '手机APP监控配置',
       collapsed: false,
       base: '/RJ/App/',
-      items: [
-        { text: 'APP监控配置', link: 'app-monitor' },
-      ]
-    },
+      items: [{ text: 'APP监控配置', link: 'app-monitor' }]
+    }
   ]
 }
 
@@ -38,6 +34,7 @@ export function Sidebar_Bz() {
         { text: '系统介绍', link: 'Introduction' },
         { text: '收费标准', link: 'charge' },
         { text: '通道解答', link: 'channel' },
+        { text: '赞助我们', link: 'donate' }
       ]
     }
   ]
@@ -51,10 +48,10 @@ export function Sidebar_TD() {
       base: '/TD/Wx/',
       items: [
         { text: '微信个人码-监控端', link: 'personal-code' },
-        { text: '微信赞赏码-监控端', link:'reward-code' },
-        { text: '微信店员-监控端', link:'store-staff' },
-        { text: '微信经营码-监控端', link:'merchant-code' },
-        { text: '微信收款单-监控端', link:'receipt-code' },
+        { text: '微信赞赏码-监控端', link: 'reward-code' },
+        { text: '微信店员-监控端', link: 'store-staff' },
+        { text: '微信经营码-监控端', link: 'merchant-code' },
+        { text: '微信收款单-监控端', link: 'receipt-code' },
         { text: '微信易支付通道', link: 'easy-pay' },
         { text: '微信V免签通道', link: 'v-sign' },
         { text: '微信店员-代挂', link: 'store-staff-sub' },
@@ -74,7 +71,7 @@ export function Sidebar_TD() {
         { text: '支付宝预授权支付通道', link: 'advance-authorization' },
         { text: '支付宝手机网站支付通道', link: 'mobile-website' },
         { text: '支付宝易支付通道', link: 'easy-pay' },
-        { text: '支付宝V免签通道', link: 'v-sign' },
+        { text: '支付宝V免签通道', link: 'v-sign' }
       ]
     },
     {
@@ -84,7 +81,7 @@ export function Sidebar_TD() {
       items: [
         { text: 'QQ个人码-监控端', link: 'personal-code' },
         { text: 'QQ易支付通道', link: 'easy-pay' },
-        { text: 'QQV免签', link: 'v-sign' },
+        { text: 'QQV免签', link: 'v-sign' }
       ]
     },
     {
@@ -100,19 +97,18 @@ export function Sidebar_TD() {
       ]
     },
     {
+      text: 'USDT 支付通道配置',
+      link: 'Markdown',
+      collapsed: false,
+      base: '/TD/Usdt/',
+      items: [{ text: 'Usdt-Trc20', link: 'Trc20' }]
+    },
+    {
       text: 'PayPal 支付通道配置',
       link: 'Vercel-CLI',
       collapsed: false,
       base: '/TD/PayPal/',
       items: []
-    },
-    {
-      text: 'USDT 支付通道配置',
-      link: 'Markdown',
-      collapsed: false,
-      base: '/TD/USDT/',
-      items: []
     }
   ]
 }
-
