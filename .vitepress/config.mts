@@ -5,7 +5,7 @@ import { groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 // 导出默认配置
 export default defineConfig({
   // 站点名称
-  title: '简付支付系统',
+  title: '简付支付',
   // 站点语言
   lang: 'zh-CN',
   // 站点介绍
@@ -49,7 +49,14 @@ export default defineConfig({
           android: 'logos:android-icon'
         }
       })
-    ]
+    ],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern'
+        }
+      }
+    }
   },
 
   themeConfig: {

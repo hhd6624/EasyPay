@@ -1,7 +1,7 @@
 ---
 layout: home
 title: 简付支付系统
-titleTemplate: 
+titleTemplate:
 hero:
   name: 简付支付系统
   text: 一点接入
@@ -9,20 +9,20 @@ hero:
   image:
     src: index/backgrounderaser_1726813360.png
     alt: 多渠道收付款
-#  prelink:
-#    title: '🎉 站点迁移至 <u>https://doc.theojs.cn</u><div style="text-align: right; font-weight: bold;"><i class="fas fa-star" style="color: #FFD43B;"></i>Ctrl+D 快速收藏网址</div>'
-#    link: https://doc.theojs.cn/
-#    target: _blank
+  #  prelink:
+  #    title: '🎉 站点迁移至 <u>https://doc.theojs.cn</u><div style="text-align: right; font-weight: bold;"><i class="fas fa-star" style="color: #FFD43B;"></i>Ctrl+D 快速收藏网址</div>'
+  #    link: https://doc.theojs.cn/
+  #    target: _blank
   actions:
     - theme: brand
       text: 立即开始
-      link: https://jf.dghhd.top
-#    - theme: alt
-#      text: 注册试用
-#      link: https://jf.dghhd.top/login
-#    - theme: alt
-#      text: 机场推荐
-#      link: /serve/airport/qingyunti
+      link: https://jf.dghhd.top/login
+    #    - theme: alt
+    #      text: 注册试用
+    #      link: https://jf.dghhd.top/login
+    #    - theme: alt
+    #      text: 机场推荐
+    #      link: /serve/airport/qingyunti
     - theme: brand
       text: ❤️ 成为赞助商
       link: https://jf.dghhd.top/demo
@@ -40,17 +40,17 @@ features:
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fab fa-youtube fa-xl" style="margin-right:0.5rem; color:#FF0000" alt="youtube"></i>合租平台</span>'
     details: 稳定好用的 Netflix 合租平台推荐
-    link: 
+    link:
     linkText: 查看更多
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-plane fa-xl" style="margin-right:0.5rem; color:#538dd7" alt="IPLC"></i>优质线路</span>'
     details: 全专线IPLC，不限速，不限设备数量，超稳晚高峰，流媒体全解锁！全节点解锁chatgpt！
-    link: 
+    link:
     linkText: 查看更多
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fas fa-genderless fa-2xl" style="margin-right:0.5rem; color:#4a6ffd" alt="aliyundrive"></i>云盘资源分享</span>'
     details: 热门资源/电视剧/电影/综艺/动漫/大陆/日本/韩国/欧美
-    link: 
+    link:
     linkText: 查看更多
 ---
 
