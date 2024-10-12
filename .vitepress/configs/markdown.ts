@@ -2,14 +2,13 @@ import { UserConfig } from 'vitepress'
 import { footnote } from '@mdit/plugin-footnote'
 import { tasklist } from '@mdit/plugin-tasklist'
 import { imgSize } from '@mdit/plugin-img-size'
-import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
+import { figure } from '@mdit/plugin-figure'
 import { table } from './index.ts'
 import { groupIconMdPlugin } from 'vitepress-plugin-group-icons'
 
 export const markdown: UserConfig['markdown'] = {
   theme: { light: 'one-light', dark: 'dracula-soft' },
   image: { lazyLoading: true },
-  codeTransformers: [transformerTwoslash()],
   container: {
     infoLabel: '信息',
     noteLabel: '信息',
@@ -26,10 +25,10 @@ export const markdown: UserConfig['markdown'] = {
     md.use(tasklist)
     md.use(imgSize)
     md.use(groupIconMdPlugin)
-    // md.use(figure, {
-    //   figcaption: 'alt',
-    //   copyAttrs: '^class$',
-    //   lazy: true
-    // })
+    md.use(figure, {
+      figcaption: 'alt',
+      copyAttrs: '^class$',
+      lazy: true
+    })
   }
 }
