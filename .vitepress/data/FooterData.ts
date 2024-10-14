@@ -5,8 +5,7 @@ export const Footer_Data = {
   },
   author: {
     name: 'Theo-Messi',
-    link: 'https://github.com/Theo-Messi',
-    time: 2019
+    link: 'https://github.com/Theo-Messi'
   }
   // group: [
   //   {
@@ -43,13 +42,13 @@ export const Footer_Data = {
   //         name: '青云梯',
   //         icon: 'fab fa-gripfire',
   //         style: 'color: rgba(255, 87, 51, 1)',
-  //         href: 'https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd'
+  //         href: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd'
   //       },
   //       { name: '银河录像局', href: 'https://nf.video/kaIuE' },
   //       { name: '奈飞小铺', href: 'https://ihezu.love/UKTer6' },
   //       {
   //         name: 'FlyingBird',
-  //         href: 'https://fbinv01.fbaff.cc/auth/register?code=RZP3'
+  //         href: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3'
   //       },
   //       {
   //         name: 'Bridge The Wise',
@@ -61,7 +60,7 @@ export const Footer_Data = {
   //       },
   //       {
   //         name: 'SMS-Activate',
-  //         href: 'https://sms-activate.org/?ref=8170513'
+  //         href: 'https://sms-activate.io/?ref=8170513'
   //       }
   //     ]
   //   },
