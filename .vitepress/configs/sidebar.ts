@@ -2,9 +2,10 @@ import type { DefaultTheme } from 'vitepress'
 
 // 侧边栏配置
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/Bz/': { base: '/Bz/', items: Sidebar_Bz() },
+  '/Bz/': { base: '/Bz/', items: Sidebar_BZ() },
   '/RJ/': { base: '/RJ/', items: Sidebar_RJ() },
-  '/TD/': { base: '/TD/', items: Sidebar_TD() }
+  '/TD/': { base: '/TD/', items: Sidebar_TD() },
+  '/RuleProject/': { base: '/Gz/', items: Sidebar_RU() }
 }
 
 export function Sidebar_RJ() {
@@ -16,6 +17,18 @@ export function Sidebar_RJ() {
       items: [{ text: 'PC监控配置', link: 'pc-monitor' }]
     },
     {
+      text: 'UOS云端配置',
+      collapsed: false,
+      base: '/RJ/Uos/',
+      items: [{ text: 'UOS云端配置', link: 'uos-cloud' }]
+    },
+    {
+      text: '云端配置',
+      collapsed: false,
+      base: '/RJ/Yd/',
+      items: [{ text: '云端配置', link: 'yd-config' }]
+    },
+    {
       text: '手机APP监控配置',
       collapsed: false,
       base: '/RJ/App/',
@@ -24,15 +37,29 @@ export function Sidebar_RJ() {
   ]
 }
 
-export function Sidebar_Bz() {
+export function Sidebar_RU() {
   return [
     {
-      text: '系统帮助',
+      text: '规则之树接入简付',
+      collapsed: false,
+      base: '/RuleProject/Gz/',
+      items: [
+        { text: '支付演示', link: 'RuleTree' },
+        { text: '规则配置', link: 'gz-config' }
+      ]
+    }
+  ]
+}
+
+export function Sidebar_BZ() {
+  return [
+    {
+      text: '系统简介',
       collapsed: false,
       base: '/Bz/',
       items: [
         { text: '系统介绍', link: 'Introduction' },
-        { text: '收费标准', link: 'charge' },
+        { text: '收费方式', link: 'charge' },
         { text: '通道解答', link: 'channel' },
         { text: '赞助我们', link: 'donate' }
       ]
@@ -55,7 +82,9 @@ export function Sidebar_TD() {
         { text: '微信易支付通道', link: 'easy-pay' },
         { text: '微信V免签通道', link: 'v-sign' },
         { text: '微信店员-代挂', link: 'store-staff-sub' },
-        { text: '微信-NativeV3', link: 'NativeV3' }
+        { text: '微信-NativeV3', link: 'NativeV3' },
+        { text: '微信-UOS', link: 'UOS' },
+        { text: '微信-云端', link: 'yd-config' }
       ]
     },
     {
@@ -71,7 +100,9 @@ export function Sidebar_TD() {
         { text: '支付宝预授权支付通道', link: 'advance-authorization' },
         { text: '支付宝手机网站支付通道', link: 'mobile-website' },
         { text: '支付宝易支付通道', link: 'easy-pay' },
-        { text: '支付宝V免签通道', link: 'v-sign' }
+        { text: '支付宝V免签通道', link: 'v-sign' },
+        { text: '支付宝-UOS', link: 'UOS' },
+        { text: '支付宝-云端', link: 'yd-config' }
       ]
     },
     {
@@ -98,17 +129,15 @@ export function Sidebar_TD() {
     },
     {
       text: 'USDT 支付通道配置',
-      link: 'Markdown',
       collapsed: false,
       base: '/TD/Usdt/',
       items: [{ text: 'Usdt-Trc20', link: 'Trc20' }]
     },
     {
       text: 'PayPal 支付通道配置',
-      link: 'Vercel-CLI',
       collapsed: false,
       base: '/TD/PayPal/',
-      items: []
+      items: [{ text: 'PayPal', link: 'personal-code' }]
     }
   ]
 }

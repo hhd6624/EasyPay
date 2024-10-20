@@ -5,7 +5,7 @@ titleTemplate:
 hero:
   name: 简付支付系统
   text: 一点接入
-  tagline: 一站式支付解决方案 | 轻松接入多种支付渠道 | 安全可靠 | 免签约 | 免手续费 | 免运营成本 | 全球领先 | 全球服务商
+  tagline: 一站式支付解决方案 | 快速接入丰富多样的支付渠道 | 安全性能卓越可靠 | 免签约繁琐流程 | 免运营成本压力 | 实时到账零延迟 | 智能风控更安心 | 多平台适配性强  | 资金流转清晰可查 | 满足各类支付场景需求
   image:
     src: index/backgrounderaser_1726813360.png
     alt: 多渠道收付款
@@ -16,7 +16,7 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: https://jf.dghhd.top/login
+      link: https://jf.hhddg.top
     #    - theme: alt
     #      text: 注册试用
     #      link: https://jf.dghhd.top/login
@@ -25,7 +25,7 @@ hero:
     #      link: /serve/airport/qingyunti
     - theme: brand
       text: ❤️ 成为赞助商
-      link: https://jf.dghhd.top/demo
+      link: https://jf.hhddg.top/demo
 #    - theme: cta pan
 #      text: 云盘资源
 #      link: https://share.theojs.cn/
@@ -33,9 +33,9 @@ hero:
 #      text: 玄学宝典
 #      link: https://xx.theojs.cn
 features:
-  - title: '<span style="display: inline-flex; align-items: center;"><img src="https://ts1.cn.mm.bing.net/th?id=ODLS.da998d8b-7c21-41c4-893d-c83d13392ad3&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" style="height:27px; margin-right:0.5rem;"/>RuleProject</span>'
+  - title: '<span style="display: inline-flex; align-items: center;"><img src="/index/rule.png" style="height:27px; margin-right:0.5rem;"/>RuleProject</span>'
     details: RuleApi商业版、专业版、开源版均支持接入本支付系统
-    link: /RuleProject/RuleApi
+    link: /RuleProject/Gz/RuleTree
     linkText: 查看教程
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fab fa-youtube fa-xl" style="margin-right:0.5rem; color:#FF0000" alt="youtube"></i>合租平台</span>'
