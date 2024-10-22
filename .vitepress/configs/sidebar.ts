@@ -14,19 +14,16 @@ export function Sidebar_RJ() {
       text: 'PC端软件监控配置',
       collapsed: false,
       base: '/RJ/Pc/',
-      items: [{ text: 'PC监控配置', link: 'pc-monitor' }]
+      items: [
+        { text: '三网监控配置', link: 'three-net-monitor' },
+        { text: '官方监控配置', link: 'official-monitor' }
+      ]
     },
     {
-      text: 'UOS云端配置',
-      collapsed: false,
-      base: '/RJ/Uos/',
-      items: [{ text: 'UOS云端配置', link: 'uos-cloud' }]
-    },
-    {
-      text: '云端配置',
+      text: '云端监控配置',
       collapsed: false,
       base: '/RJ/Yd/',
-      items: [{ text: '云端配置', link: 'yd-config' }]
+      items: [{ text: '云端监控配置', link: 'yd-monitor' }]
     },
     {
       text: '手机APP监控配置',
@@ -60,7 +57,6 @@ export function Sidebar_BZ() {
       items: [
         { text: '系统介绍', link: 'Introduction' },
         { text: '收费方式', link: 'charge' },
-        { text: '通道解答', link: 'channel' },
         { text: '赞助我们', link: 'donate' }
       ]
     }
@@ -84,7 +80,8 @@ export function Sidebar_TD() {
         { text: '微信店员-代挂', link: 'store-staff-sub' },
         { text: '微信-NativeV3', link: 'NativeV3' },
         { text: '微信-UOS', link: 'UOS' },
-        { text: '微信-云端', link: 'yd-config' }
+        { text: '微信-XD', link: 'XD' },
+        { text: '微信-UOS-XD', link: 'UOS-XD' }
       ]
     },
     {
@@ -94,15 +91,14 @@ export function Sidebar_TD() {
       items: [
         { text: '支付宝公私匙申请', link: 'currency' },
         { text: '支付宝个人码-监控端', link: 'personal-code' },
-        { text: '支付宝商家账单通道', link: 'merchant-bill' },
-        { text: '支付宝当面付通道', link: 'face-to-face' },
-        { text: '支付宝电脑网站支付通道', link: 'computer-website' },
-        { text: '支付宝预授权支付通道', link: 'advance-authorization' },
-        { text: '支付宝手机网站支付通道', link: 'mobile-website' },
-        { text: '支付宝易支付通道', link: 'easy-pay' },
-        { text: '支付宝V免签通道', link: 'v-sign' },
-        { text: '支付宝-UOS', link: 'UOS' },
-        { text: '支付宝-云端', link: 'yd-config' }
+        { text: '支付宝商家账单', link: 'merchant-bill' },
+        { text: '支付宝当面付', link: 'face-to-face' },
+        { text: '支付宝电脑网站支付', link: 'computer-website' },
+        { text: '支付宝预授权支付', link: 'advance-authorization' },
+        { text: '支付宝手机网站支付', link: 'mobile-website' },
+        { text: '支付宝易支付', link: 'easy-pay' },
+        { text: '支付宝V免签', link: 'v-sign' },
+        { text: '支付宝-XD', link: 'XD' }
       ]
     },
     {
@@ -110,8 +106,9 @@ export function Sidebar_TD() {
       collapsed: false,
       base: '/TD/Qq/',
       items: [
-        { text: 'QQ个人码-监控端', link: 'personal-code' },
-        { text: 'QQ易支付通道', link: 'easy-pay' },
+        { text: 'QQ个人码-监控端-PC', link: 'personal-code-pc' },
+        { text: 'QQ个人码-监控端-手机', link: 'personal-code-mobile' },
+        { text: 'QQ易支付', link: 'easy-pay' },
         { text: 'QQV免签', link: 'v-sign' }
       ]
     },
@@ -121,10 +118,10 @@ export function Sidebar_TD() {
       base: '/TD/Wy/',
       items: [
         { text: '京东收银台-监控端', link: 'JD-pay' },
-        { text: '网银易支付通道', link: 'easy-pay' },
         { text: '网银京东收银台', link: 'JD-pay-boxjs' },
         { text: '银联前置', link: 'Union-pre-front' },
-        { text: '虎皮椒', link: 'HuaPi' }
+        { text: '虎皮椒', link: 'HuaPi' },
+        { text: '易支付', link: 'easy-pay' }
       ]
     },
     {

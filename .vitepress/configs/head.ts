@@ -161,7 +161,7 @@ export const head: HeadConfig[] = [
     {
       name: 'description',
       content:
-        '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
+        '简付支付,免签码支付,易支付,彩虹易支付,云支付,优码支付,简付支付系统,码支付官网,扫码支付,支付宝即时到账,微信即时到账,免签约支付,三方支付,四方支付,码支付,SH支付,SH码支付,shmpay扫码支付,易支付,支付平台,云支付,聚合支付,微信支付,源支付,支付接口,第三方支付,收款码,收款平台,支付系统'
     }
   ],
   ['meta', { name: 'format-detection', content: 'telephone=no' }],
@@ -174,7 +174,7 @@ export const head: HeadConfig[] = [
     {
       name: 'og:description',
       content:
-        '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
+        '简付支付,免签码支付,易支付,彩虹易支付,云支付,优码支付,简付支付系统,码支付官网,扫码支付,支付宝即时到账,微信即时到账,免签约支付,三方支付,四方支付,码支付,SH支付,SH码支付,shmpay扫码支付,易支付,支付平台,云支付,聚合支付,微信支付,源支付,支付接口,第三方支付,收款码,收款平台,支付系统'
     }
   ],
   ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -185,7 +185,7 @@ export const head: HeadConfig[] = [
     {
       name: 'twitter:description',
       content:
-        '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。'
+        '简付支付,免签码支付,易支付,彩虹易支付,云支付,优码支付,简付支付系统,码支付官网,扫码支付,支付宝即时到账,微信即时到账,免签约支付,三方支付,四方支付,码支付,SH支付,SH码支付,shmpay扫码支付,易支付,支付平台,云支付,聚合支付,微信支付,源支付,支付接口,第三方支付,收款码,收款平台,支付系统。'
     }
   ],
   [
@@ -199,13 +199,13 @@ export const head: HeadConfig[] = [
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        url: 'https://doc.theojs.cn/',
+        url: 'https://docs.hhddg.top/',
         name: 'Theo-Docs',
         description:
-          '流媒体森林是一个全方位的流媒体观影指南，提供国内外主流流媒体平台（Netflix、Disney+、HBO Max、Spotify、YouTube、Premium、奈飞、Bridge the Wise、HBO Max、Spotify、奈飞小铺、银河录像局）的解锁、线路、机场、服务、教程等内容，致力于为广大用户提供最全面、最快捷的流媒体解锁服务。',
+          '简付支付,免签码支付,易支付,彩虹易支付,云支付,优码支付,简付支付系统,码支付官网,扫码支付,支付宝即时到账,微信即时到账,免签约支付,三方支付,四方支付,码支付,SH支付,SH码支付,shmpay扫码支付,易支付,支付平台,云支付,聚合支付,微信支付,源支付,支付接口,第三方支付,收款码,收款平台,支付系统',
         author: {
           '@type': 'Person',
-          name: 'Theo-Messi'
+          name: '晚风知我意'
         }
       })
     }

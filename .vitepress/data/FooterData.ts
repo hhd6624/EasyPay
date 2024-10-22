@@ -4,8 +4,8 @@ export const Footer_Data = {
     police: '粤公网安备44200102445449号'
   },
   author: {
-    name: 'Theo-Messi',
-    link: 'https://github.com/Theo-Messi'
+    name: '晚风知我意',
+    link: 'https://github.com/hhd66624'
   }
   // group: [
   //   {
