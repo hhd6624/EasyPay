@@ -1,10 +1,10 @@
 import type { DefaultTheme } from 'vitepress'
 
 // 导航栏设置
-export const nav: DefaultTheme.Config['nav'] = [
+export const nav: DefaultTheme.NavItem[] = [
   { text: '首页', link: '/', activeMatch: '^/$|^/guide/' },
   {
-    text: '规则之树',
+    text: 'RuleProject',
     link: '/RuleProject/Gz/RuleTree',
     activeMatch: '^/RuleProject/'
   },

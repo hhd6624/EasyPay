@@ -1,14 +1,16 @@
 import type { DefaultTheme } from 'vitepress'
 
+type SidebarItem = DefaultTheme.SidebarItem
+
 // 侧边栏配置
-export const sidebar: DefaultTheme.Config['sidebar'] = {
+export const sidebar: DefaultTheme.SidebarMulti = {
   '/Bz/': { base: '/Bz/', items: Sidebar_BZ() },
   '/RJ/': { base: '/RJ/', items: Sidebar_RJ() },
   '/TD/': { base: '/TD/', items: Sidebar_TD() },
   '/RuleProject/': { base: '/Gz/', items: Sidebar_RU() }
 }
 
-export function Sidebar_RJ() {
+export function Sidebar_RJ(): SidebarItem[] {
   return [
     {
       text: 'PC端软件监控配置',
@@ -34,10 +36,10 @@ export function Sidebar_RJ() {
   ]
 }
 
-export function Sidebar_RU() {
+export function Sidebar_RU(): SidebarItem[] {
   return [
     {
-      text: '规则之树接入简付',
+      text: 'RuleProject社区应用',
       collapsed: false,
       base: '/RuleProject/Gz/',
       items: [
@@ -48,7 +50,7 @@ export function Sidebar_RU() {
   ]
 }
 
-export function Sidebar_BZ() {
+export function Sidebar_BZ(): SidebarItem[] {
   return [
     {
       text: '系统简介',
@@ -63,7 +65,7 @@ export function Sidebar_BZ() {
   ]
 }
 
-export function Sidebar_TD() {
+export function Sidebar_TD(): SidebarItem[] {
   return [
     {
       text: '微信支付通道配置',

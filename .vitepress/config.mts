@@ -5,7 +5,7 @@ import { groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 // 导出默认配置
 export default defineConfig({
   // 站点名称
-  title: '简付支付系统',
+  title: '简付支付',
   // 站点语言
   lang: 'zh-CN',
   // 站点介绍
@@ -19,7 +19,7 @@ export default defineConfig({
   metaChunk: true,
 
   // 站点地图
-  sitemap: { hostname: 'https://doc.theojs.cn' },
+  sitemap: { hostname: 'https://docs.hhddg.top' },
 
   // markdown-it插件配置
   markdown,
@@ -71,8 +71,7 @@ export default defineConfig({
 
     // GitHub编辑页面
     editLink: {
-      pattern:
-        'https://github.com/Theo-Messi/Theo-Docs/edit/main/content/:path',
+      pattern: 'https://github.com/hhd66624/jianfu/edit/main/content/:path',
       text: '为此页提供修改建议'
     },
 
@@ -122,6 +121,15 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: algolia
+    },
+
+    // 404
+    notFound: {
+      title: '找不到页面',
+      quote: '页面不见了，也许它去找寻新的冒险了！',
+      linkLabel: '返回首页重新探索',
+      linkText: '返回首页',
+      code: '404'
     }
   }
 })
