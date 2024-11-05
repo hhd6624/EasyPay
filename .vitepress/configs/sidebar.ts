@@ -16,10 +16,7 @@ export function Sidebar_RJ(): SidebarItem[] {
       text: 'PC端软件监控配置',
       collapsed: false,
       base: '/RJ/Pc/',
-      items: [
-        { text: '三网监控配置', link: 'three-net-monitor' },
-        { text: '官方监控配置', link: 'official-monitor' }
-      ]
+      items: [{ text: '三网监控配置', link: 'three-net-monitor' }]
     },
     {
       text: '云端监控配置',
