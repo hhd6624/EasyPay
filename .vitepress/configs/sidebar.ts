@@ -7,7 +7,7 @@ export const sidebar: DefaultTheme.SidebarMulti = {
   '/Bz/': { base: '/Bz/', items: Sidebar_BZ() },
   '/RJ/': { base: '/RJ/', items: Sidebar_RJ() },
   '/TD/': { base: '/TD/', items: Sidebar_TD() },
-  '/RuleProject/': { base: '/Gz/', items: Sidebar_RU() }
+  '/AccessInstance/': { base: '/AccessInstance/', items: Sidebar_CP() }
 }
 
 export function Sidebar_RJ(): SidebarItem[] {
@@ -33,15 +33,22 @@ export function Sidebar_RJ(): SidebarItem[] {
   ]
 }
 
-export function Sidebar_RU(): SidebarItem[] {
+export function Sidebar_CP(): SidebarItem[] {
   return [
     {
-      text: 'RuleProject社区应用',
+      text: '产品实例',
       collapsed: false,
-      base: '/RuleProject/Gz/',
+      base: '/AccessInstance/',
       items: [
-        { text: '支付演示', link: 'RuleTree' },
-        { text: '规则配置', link: 'gz-config' }
+        {
+          text: 'RuleProject',
+          collapsed: false,
+          base: '/AccessInstance//RuleProject/',
+          items: [
+            { text: '支付演示', link: 'RuleTree' },
+            { text: '规则配置', link: 'gz-config' }
+          ]
+        }
       ]
     }
   ]
@@ -66,14 +73,17 @@ export function Sidebar_TD(): SidebarItem[] {
   return [
     {
       text: '微信支付通道配置',
-      collapsed: false,
+      collapsed: true,
       base: '/TD/Wx/',
       items: [
+        { text: '微信-IMAC', link: 'IMAC' },
         { text: '微信个人码-监控端', link: 'personal-code' },
         { text: '微信赞赏码-监控端', link: 'reward-code' },
         { text: '微信店员-监控端', link: 'store-staff' },
         { text: '微信经营码-监控端', link: 'merchant-code' },
         { text: '微信收款单-监控端', link: 'receipt-code' },
+        { text: '拉卡拉-监控端', link: 'lakala' },
+        { text: '微信-JSAPI', link: 'JSAPI' },
         { text: '微信易支付通道', link: 'easy-pay' },
         { text: '微信V免签通道', link: 'v-sign' },
         { text: '微信店员-代挂', link: 'store-staff-sub' },
@@ -85,11 +95,12 @@ export function Sidebar_TD(): SidebarItem[] {
     },
     {
       text: '支付宝支付通道配置',
-      collapsed: false,
+      collapsed: true,
       base: '/TD/Zfb/',
       items: [
         { text: '支付宝公私匙申请', link: 'currency' },
         { text: '支付宝个人码-监控端', link: 'personal-code' },
+        { text: '拉卡拉-监控端', link: 'lakala' },
         { text: '支付宝商家账单', link: 'merchant-bill' },
         { text: '支付宝当面付', link: 'face-to-face' },
         { text: '支付宝电脑网站支付', link: 'computer-website' },
@@ -102,22 +113,24 @@ export function Sidebar_TD(): SidebarItem[] {
     },
     {
       text: 'QQ支付通道配置',
-      collapsed: false,
+      collapsed: true,
       base: '/TD/Qq/',
       items: [
         { text: 'QQ个人码-监控端-PC', link: 'personal-code-pc' },
         { text: 'QQ个人码-监控端-手机', link: 'personal-code-mobile' },
+        { text: 'QQ钱包-Y', link: 'Y' },
         { text: 'QQ易支付', link: 'easy-pay' },
         { text: 'QQV免签', link: 'v-sign' }
       ]
     },
     {
       text: '网银支付通道配置',
-      collapsed: false,
+      collapsed: true,
       base: '/TD/Wy/',
       items: [
         { text: '京东收银台-监控端', link: 'JD-pay' },
         { text: '网银京东收银台', link: 'JD-pay-boxjs' },
+        { text: '拉卡拉-监控端', link: 'Lakala' },
         { text: '银联前置', link: 'Union-pre-front' },
         { text: '虎皮椒', link: 'HuaPi' },
         { text: '易支付', link: 'easy-pay' }
@@ -125,13 +138,16 @@ export function Sidebar_TD(): SidebarItem[] {
     },
     {
       text: 'USDT 支付通道配置',
-      collapsed: false,
+      collapsed: true,
       base: '/TD/Usdt/',
-      items: [{ text: 'Usdt-Trc20', link: 'Trc20' }]
+      items: [
+        { text: 'Usdt-Trc20', link: 'Trc20' },
+        { text: 'Easy Payment Usdt', link: 'Easy-Payment-Usdt' }
+      ]
     },
     {
       text: 'PayPal 支付通道配置',
-      collapsed: false,
+      collapsed: true,
       base: '/TD/PayPal/',
       items: [{ text: 'PayPal', link: 'personal-code' }]
     }

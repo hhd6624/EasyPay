@@ -1,7 +1,7 @@
 import type { AsideItem } from '@theojs/lumen'
 export const Aside_Data: AsideItem[] = [
   {
-    link: 'https://jf.hhddg.top/demo',
+    link: '#',
     icon: 'https://doc.theojs.cn/爱心.png',
     name: '赞助我的项目'
   },

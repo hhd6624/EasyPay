@@ -17,7 +17,7 @@ hero:
   actions:
     - theme: brand
       text: 立即开始
-      link: /streaming/Netflix-guide
+      link: https://jf.hhddg.top
     #    - theme: alt
     #      text: 账号合租
     #      link: /serve/sharing/Account-sharing-guide
@@ -26,7 +26,7 @@ hero:
     #      link: /serve/airport/qingyunti
     - theme: brand
       text: ❤️ 成为赞助商
-      link: https://github.com/sponsors/Theo-Messi
+      link: #
 #    - theme: cta pan
 #      text: 云盘资源
 #      link: https://share.theojs.cn/
