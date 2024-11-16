@@ -2,11 +2,12 @@ import type { FooterData } from '@theojs/lumen'
 export const Footer_Data: FooterData = {
   beian: {
     icp: '鄂ICP备2024060426号',
-    police: '粤公网安备44200102445449号'
+    police: '粤公网安备44200102445449号',
+    showIcon: true
   },
   author: {
     name: '晚风知我意',
-    link: 'https://github.com/hhd66624'
+    link: 'https://github.com/hhd6624'
   }
   // group: [
   //   {
@@ -20,10 +21,6 @@ export const Footer_Data: FooterData = {
   //       {
   //         name: '玄学宝典',
   //         href: 'https://github.com/Theo-Messi/xx.theojs.cn'
-  //       },
-  //       {
-  //         name: '阿里云盘资源分享',
-  //         href: 'https://github.com/Theo-Messi/share.theojs.cn'
   //       },
   //       {
   //         name: '常用配置文件',
@@ -41,8 +38,8 @@ export const Footer_Data: FooterData = {
   //     links: [
   //       {
   //         name: '青云梯',
-  //         icon: 'fab fa-gripfire',
-  //         style: 'color: rgba(255, 87, 51, 1)',
+  //         icon: 'el:fire',
+  //         style: 'rgba(255, 87, 51, 1)',
   //         href: 'https://ivt01.qytaff.cc/register?aff=jjgD79Jd'
   //       },
   //       { name: '银河录像局', href: 'https://nf.video/kaIuE' },
@@ -50,10 +47,6 @@ export const Footer_Data: FooterData = {
   //       {
   //         name: 'FlyingBird',
   //         href: 'https://fbinv02.fbaff.cc/auth/register?code=RZP3'
-  //       },
-  //       {
-  //         name: 'Bridge The Wise',
-  //         href: 'https://patriot.ninja/aff.php?aff=1471'
   //       },
   //       {
   //         name: '飞兔云',
@@ -67,15 +60,15 @@ export const Footer_Data: FooterData = {
   //   },
   //   {
   //     title: '观影指南',
-  //     internal: true,
+  //     target: '_self',
   //     icon: 'fas fa-book-open',
   //     links: [
-  //       { name: 'Netflix', href: '/streaming/Netflix-guide' },
-  //       { name: 'Disney+', href: '/streaming/Disney-introduce' },
-  //       { name: 'Spotify Premium', href: '/streaming/Spotify' },
-  //       { name: 'YouTube Premium', href: '/streaming/YouTube' },
-  //       { name: 'Hulu', href: '/streaming/Hulu' },
-  //       { name: 'HBO Max', href: '/streaming/HBO-Max' }
+  //       { name: 'Netflix', href: '/streaming/netflix-guide' },
+  //       { name: 'Disney+', href: '/streaming/disney-introduce' },
+  //       { name: 'Spotify Premium', href: '/streaming/spotify' },
+  //       { name: 'YouTube Premium', href: '/streaming/youtube' },
+  //       { name: 'Hulu', href: '/streaming/hulu' },
+  //       { name: 'HBO Max', href: '/streaming/hbo-max' }
   //     ]
   //   },
   //   {
@@ -84,7 +77,6 @@ export const Footer_Data: FooterData = {
   //     links: [
   //       { name: 'Theo-Docs', href: 'https://doc.theojs.cn/' },
   //       { name: '玄学宝典', href: 'https://xx.theojs.cn/' },
-  //       { name: '阿里云盘资源分享', href: 'https://share.theojs.cn/' },
   //       { name: 'VitePress', href: 'https://vitepress.dev/' }
   //     ]
   //   }

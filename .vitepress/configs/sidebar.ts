@@ -4,62 +4,49 @@ type SidebarItem = DefaultTheme.SidebarItem
 
 // 侧边栏配置
 export const sidebar: DefaultTheme.SidebarMulti = {
-  '/Bz/': { base: '/Bz/', items: Sidebar_BZ() },
-  '/RJ/': { base: '/RJ/', items: Sidebar_RJ() },
-  '/TD/': { base: '/TD/', items: Sidebar_TD() },
-  '/AccessInstance/': { base: '/AccessInstance/', items: Sidebar_CP() }
+  '/system/': { base: '/system/', items: Sidebar_system() },
+  '/monitor/': { base: '/monitor/', items: Sidebar_monitor() },
+  '/thoroughfare/': { base: '/thoroughfare/', items: Sidebar_thoroughfare() },
+  '/example/': { base: '/example/', items: Sidebar_example() }
 }
 
-export function Sidebar_RJ(): SidebarItem[] {
+export function Sidebar_monitor(): SidebarItem[] {
   return [
     {
       text: 'PC端软件监控配置',
       collapsed: false,
-      base: '/RJ/Pc/',
+      base: '/monitor/pc/',
       items: [{ text: '三网监控配置', link: 'three-net-monitor' }]
-    },
-    {
-      text: '云端监控配置',
-      collapsed: false,
-      base: '/RJ/Yd/',
-      items: [{ text: '云端监控配置', link: 'yd-monitor' }]
     },
     {
       text: '手机APP监控配置',
       collapsed: false,
-      base: '/RJ/App/',
+      base: '/monitor/app/',
       items: [{ text: 'APP监控配置', link: 'app-monitor' }]
     }
   ]
 }
 
-export function Sidebar_CP(): SidebarItem[] {
+export function Sidebar_example(): SidebarItem[] {
   return [
     {
       text: '产品实例',
       collapsed: false,
-      base: '/AccessInstance/',
+      base: '/example/',
       items: [
-        {
-          text: 'RuleProject',
-          collapsed: false,
-          base: '/AccessInstance//RuleProject/',
-          items: [
-            { text: '支付演示', link: 'RuleTree' },
-            { text: '规则配置', link: 'gz-config' }
-          ]
-        }
+        { text: '支付演示', link: 'RuleTree' },
+        { text: '规则配置', link: 'gz-config' }
       ]
     }
   ]
 }
 
-export function Sidebar_BZ(): SidebarItem[] {
+export function Sidebar_system(): SidebarItem[] {
   return [
     {
       text: '系统简介',
       collapsed: false,
-      base: '/Bz/',
+      base: '/system/',
       items: [
         { text: '系统介绍', link: 'Introduction' },
         { text: '收费方式', link: 'charge' },
@@ -69,12 +56,30 @@ export function Sidebar_BZ(): SidebarItem[] {
   ]
 }
 
-export function Sidebar_TD(): SidebarItem[] {
+export function Sidebar_thoroughfare(): SidebarItem[] {
   return [
+    {
+      text: '支付宝支付通道配置',
+      collapsed: true,
+      base: '/thoroughfare/alipay/',
+      items: [
+        { text: '支付宝公私匙申请', link: 'currency' },
+        { text: '支付宝个人码-监控端', link: 'personal-code' },
+        { text: '拉卡拉-监控端', link: 'lakala' },
+        { text: '支付宝商家账单', link: 'merchant-bill' },
+        { text: '支付宝当面付', link: 'face-to-face' },
+        { text: '支付宝电脑网站支付', link: 'computer-website' },
+        { text: '支付宝预授权支付', link: 'advance-authorization' },
+        { text: '支付宝手机网站支付', link: 'mobile-website' },
+        { text: '支付宝易支付', link: 'easy-pay' },
+        { text: '支付宝V免签', link: 'v-sign' },
+        { text: '支付宝-XD', link: 'XD' }
+      ]
+    },
     {
       text: '微信支付通道配置',
       collapsed: true,
-      base: '/TD/Wx/',
+      base: '/thoroughfare/wxpay/',
       items: [
         { text: '微信-IMAC', link: 'IMAC' },
         { text: '微信个人码-监控端', link: 'personal-code' },
@@ -94,27 +99,9 @@ export function Sidebar_TD(): SidebarItem[] {
       ]
     },
     {
-      text: '支付宝支付通道配置',
-      collapsed: true,
-      base: '/TD/Zfb/',
-      items: [
-        { text: '支付宝公私匙申请', link: 'currency' },
-        { text: '支付宝个人码-监控端', link: 'personal-code' },
-        { text: '拉卡拉-监控端', link: 'lakala' },
-        { text: '支付宝商家账单', link: 'merchant-bill' },
-        { text: '支付宝当面付', link: 'face-to-face' },
-        { text: '支付宝电脑网站支付', link: 'computer-website' },
-        { text: '支付宝预授权支付', link: 'advance-authorization' },
-        { text: '支付宝手机网站支付', link: 'mobile-website' },
-        { text: '支付宝易支付', link: 'easy-pay' },
-        { text: '支付宝V免签', link: 'v-sign' },
-        { text: '支付宝-XD', link: 'XD' }
-      ]
-    },
-    {
       text: 'QQ支付通道配置',
       collapsed: true,
-      base: '/TD/Qq/',
+      base: '/thoroughfare/qqpay/',
       items: [
         { text: 'QQ个人码-监控端-PC', link: 'personal-code-pc' },
         { text: 'QQ个人码-监控端-手机', link: 'personal-code-mobile' },
@@ -126,7 +113,7 @@ export function Sidebar_TD(): SidebarItem[] {
     {
       text: '网银支付通道配置',
       collapsed: true,
-      base: '/TD/Wy/',
+      base: '/thoroughfare/bank/',
       items: [
         { text: '京东收银台-监控端', link: 'JD-pay' },
         { text: '网银京东收银台', link: 'JD-pay-boxjs' },
@@ -139,17 +126,17 @@ export function Sidebar_TD(): SidebarItem[] {
     {
       text: 'USDT 支付通道配置',
       collapsed: true,
-      base: '/TD/Usdt/',
+      base: '/thoroughfare/usdt/',
       items: [
-        { text: 'Usdt-Trc20', link: 'Trc20' },
-        { text: 'Easy Payment Usdt', link: 'Easy-Payment-Usdt' }
+        { text: 'usdt-Trc20', link: 'Trc20' },
+        { text: 'Easy Payment usdt', link: 'Easy-Payment-usdt' }
       ]
     },
     {
-      text: 'PayPal 支付通道配置',
+      text: 'paypal 支付通道配置',
       collapsed: true,
-      base: '/TD/PayPal/',
-      items: [{ text: 'PayPal', link: 'personal-code' }]
+      base: '/thoroughfare/paypal/',
+      items: [{ text: 'paypal', link: 'personal-code' }]
     }
   ]
 }

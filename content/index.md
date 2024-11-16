@@ -30,13 +30,13 @@ hero:
 #    - theme: cta pan
 #      text: 云盘资源
 #      link: https://share.theojs.cn/
-#    - theme: cta xx
+#    - theme: lumen theo
 #      text: 玄学宝典
 #      link: https://xx.theojs.cn
 features:
   - title: '<span style="display: inline-flex; align-items: center;"><img src="index/rule.png" style="height:27px; margin-right:0.5rem;"/> RuleProject社区应用 </span>'
     details: RuleApi商业版、专业版、开源版均支持接入本支付系统
-    link: /RuleProject/Gz/RuleTree
+    link: /example/RuleTree
     linkText: 查看更多
 
   - title: '<span style="display: inline-flex; align-items: center;"><i class="fab fa-youtube fa-xl" style="margin-right:0.5rem; color:#FF0000" alt="youtube"></i> 合租平台 </span>'

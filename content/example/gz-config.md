@@ -10,13 +10,13 @@
 
 **`商户密钥`:如图❸**
 
-![127c570e6ec28720be3da8.png](/RuleProject/QQ20241020-202418.png)
+![127c570e6ec28720be3da8.png](/ruleproject/QQ20241020-202418.png)
 
 ## 2. 登录RuleApi后台
 
 点击左侧菜单栏中的`支付模块`， 选择`易支付配置`
 
-![127c570e6ec28720be3da8.png](/RuleProject/QQ20241020-202017.png)
+![127c570e6ec28720be3da8.png](/ruleproject/QQ20241020-202017.png)
 
 ### 填写配置支付接口
 

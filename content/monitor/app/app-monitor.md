@@ -1,4 +1,5 @@
 # APP监控
+
 ::: tip 软件下载
 
 APP监控使用SmsForwarder进行数据转发
@@ -13,7 +14,9 @@ Gitee仓库：https://gitee.com/pp/SmsForwarder/
 
 本文使用的SmsForwarder版本为3.3.1.240418
 :::
+
 ## 通用设置
+
 ::: tip TIP
 
 必备设置，其他请根据自身需求配置
@@ -34,34 +37,40 @@ v3.3.1开始只保留英文标签，请根据自己的版本，选择对应的�
 :::
 
 ::: details 版本号 < v3.3.1版本模板
+
 ```json
 {
-    "from": "{{来源号码}}",
-    "package_name": "{{APP包名}}",
-    "app_name": "{{APP名称}}",
-    "title": "{{通知标题}}",
-    "msg": "{{通知内容}}",
-    "receive_time": "{{接收时间}}",
-    "device_name": "{{设备名称}}"
+  "from": "{{来源号码}}",
+  "package_name": "{{APP包名}}",
+  "app_name": "{{APP名称}}",
+  "title": "{{通知标题}}",
+  "msg": "{{通知内容}}",
+  "receive_time": "{{接收时间}}",
+  "device_name": "{{设备名称}}"
 }
 ```
+
 :::
 
 ::: details 版本号 > v3.3.1版本模板
+
 ```json
 {
-    "from": "{{FROM}}",
-    "package_name": "{{PACKAGE_NAME}}",
-    "app_name": "{{APP_NAME}}",
-    "title": "{{TITLE}}",
-    "msg": "{{MSG}}",
-    "receive_time": "{{RECEIVE_TIME}}",
-    "device_name": "{{DEVICE_NAME}}"
+  "from": "{{FROM}}",
+  "package_name": "{{PACKAGE_NAME}}",
+  "app_name": "{{APP_NAME}}",
+  "title": "{{TITLE}}",
+  "msg": "{{MSG}}",
+  "receive_time": "{{RECEIVE_TIME}}",
+  "device_name": "{{DEVICE_NAME}}"
 }
 ```
+
 :::
 ![](https://s2.loli.net/2024/08/03/FG6jtBgdIlfY9mT.png)
+
 ## 发送通道
+
 ::: tip TIP
 
 以个人版为例，商户版本自行对应填写
@@ -70,6 +79,7 @@ v3.3.1开始只保留英文标签，请根据自己的版本，选择对应的�
 ![QQ20240918-211343.png](http://img.9a18.cn/2024/09/18/c99553bc76e7a.png)
 
 ## 转发规则
+
 在的应用页中新增转发规则，选择上一步新增的发送通道，匹配字段选择APP包名，匹配模式选择是，匹配的值可以下拉选择APP，点击保存
 
 ::: tip 匹配的值
