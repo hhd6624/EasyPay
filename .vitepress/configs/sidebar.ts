@@ -13,13 +13,13 @@ export const sidebar: DefaultTheme.SidebarMulti = {
 export function Sidebar_monitor(): SidebarItem[] {
   return [
     {
-      text: 'PC端软件监控配置',
+      text: 'PC监控通道配置',
       collapsed: false,
       base: '/monitor/pc/',
       items: [{ text: '三网监控配置', link: 'three-net-monitor' }]
     },
     {
-      text: '手机APP监控配置',
+      text: 'APP监控配置',
       collapsed: false,
       base: '/monitor/app/',
       items: [{ text: 'APP监控配置', link: 'app-monitor' }]
@@ -34,8 +34,8 @@ export function Sidebar_example(): SidebarItem[] {
       collapsed: false,
       base: '/example/',
       items: [
-        { text: '支付演示', link: 'RuleTree' },
-        { text: '规则配置', link: 'gz-config' }
+        { text: '规则支付演示', link: 'RuleTree' },
+        { text: '规则支付配置', link: 'gz-config' }
       ]
     }
   ]
@@ -59,11 +59,21 @@ export function Sidebar_system(): SidebarItem[] {
 export function Sidebar_thoroughfare(): SidebarItem[] {
   return [
     {
+      text: '支付通用配置',
+      collapsed: true,
+      base: '/thoroughfare/summary/',
+      items: [
+        { text: 'v免签', link: 'v-sign' },
+        { text: '银联前置', link: 'union-pre-front' },
+        { text: '京东收银台', link: 'jd-pay' },
+        { text: '支付宝公私匙申请', link: 'currency' }
+      ]
+    },
+    {
       text: '支付宝支付通道配置',
       collapsed: true,
       base: '/thoroughfare/alipay/',
       items: [
-        { text: '支付宝公私匙申请', link: 'currency' },
         { text: '支付宝个人码-监控端', link: 'personal-code' },
         { text: '拉卡拉-监控端', link: 'lakala' },
         { text: '支付宝商家账单', link: 'merchant-bill' },
