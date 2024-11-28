@@ -34,7 +34,7 @@ export function Sidebar_example(): SidebarItem[] {
       collapsed: false,
       base: '/example/',
       items: [
-        { text: '规则支付演示', link: 'RuleTree' },
+        { text: '规则支付演示', link: 'ruletree' },
         { text: '规则支付配置', link: 'gz-config' }
       ]
     }
@@ -48,7 +48,7 @@ export function Sidebar_system(): SidebarItem[] {
       collapsed: false,
       base: '/system/',
       items: [
-        { text: '系统介绍', link: 'Introduction' },
+        { text: '系统介绍', link: 'introduction' },
         { text: '收费方式', link: 'charge' },
         { text: '赞助我们', link: 'donate' }
       ]
@@ -60,9 +60,10 @@ export function Sidebar_thoroughfare(): SidebarItem[] {
   return [
     {
       text: '支付通用配置',
-      collapsed: true,
+      collapsed: false,
       base: '/thoroughfare/summary/',
       items: [
+        { text: '支付通道概览', link: 'tutorial' },
         { text: 'v免签', link: 'v-sign' },
         { text: '银联前置', link: 'union-pre-front' },
         { text: '京东收银台', link: 'jd-pay' },
@@ -75,12 +76,12 @@ export function Sidebar_thoroughfare(): SidebarItem[] {
       base: '/thoroughfare/alipay/',
       items: [
         { text: '支付宝个人码-监控端', link: 'personal-code' },
-        { text: '拉卡拉-监控端', link: 'lakala' },
         { text: '支付宝商家账单', link: 'merchant-bill' },
+        { text: '支付宝手机网站支付', link: 'mobile-website' },
         { text: '支付宝当面付', link: 'face-to-face' },
+        { text: '拉卡拉-监控端', link: 'lakala' },
         { text: '支付宝电脑网站支付', link: 'computer-website' },
         { text: '支付宝预授权支付', link: 'advance-authorization' },
-        { text: '支付宝手机网站支付', link: 'mobile-website' },
         { text: '支付宝易支付', link: 'easy-pay' },
         { text: '支付宝V免签', link: 'v-sign' },
         { text: '支付宝-XD', link: 'XD' }
