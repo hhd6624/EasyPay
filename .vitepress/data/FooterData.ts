@@ -7,7 +7,7 @@ export const Footer_Data: FooterData = {
     showIcon: true
   },
   author: {
-    name: 'Theo-Messi',
+    name: '晚风知我意',
     link: '#'
   },
   group: [

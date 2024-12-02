@@ -30,7 +30,7 @@ export function Sidebar_monitor(): SidebarItem[] {
 export function Sidebar_example(): SidebarItem[] {
   return [
     {
-      text: '产品实例',
+      text: '接入示例',
       collapsed: false,
       base: '/example/',
       items: [
@@ -49,8 +49,7 @@ export function Sidebar_system(): SidebarItem[] {
       base: '/system/',
       items: [
         { text: '系统介绍', link: 'introduction' },
-        { text: '收费方式', link: 'charge' },
-        { text: '赞助我们', link: 'donate' }
+        { text: '费用说明', link: 'charge' }
       ]
     }
   ]
@@ -64,10 +63,10 @@ export function Sidebar_thoroughfare(): SidebarItem[] {
       base: '/thoroughfare/summary/',
       items: [
         { text: '支付通道概览', link: 'tutorial' },
-        { text: 'v免签', link: 'v-sign' },
+        { text: '支付宝公私匙申请', link: 'currency' },
+        { text: 'v免签源码', link: 'v-sign' },
         { text: '银联前置', link: 'union-pre-front' },
-        { text: '京东收银台', link: 'jd-pay' },
-        { text: '支付宝公私匙申请', link: 'currency' }
+        { text: '京东收银台', link: 'jd-pay' }
       ]
     },
     {

@@ -1,7 +1,7 @@
 ---
 layout: home
-title: 简付
-titleTemplate: 流媒体观影一站式服务
+title: 简付系统
+titleTemplate: 一站式解决支付系统
 
 hero:
   name: 简付支付系统
@@ -20,8 +20,8 @@ hero:
 
   actions:
     - theme: brand
-      text: 立即开始
-      link: https://jf.hhddg.top
+      text: 立即登录
+      link: https://jf.hhddg.top/login
 
     #    - theme: alt
     #      text: 账号合租
@@ -32,8 +32,8 @@ hero:
     #      link: /serve/airport/qingyunti
 
     - theme: brand
-      text: ❤️ 成为赞助商
-      link: /system/donate
+      text: ❤️ 立即注册
+      link: https://jf.hhddg.top/register
 
 #    - theme: lumen theo
 #      text: 玄学宝典
