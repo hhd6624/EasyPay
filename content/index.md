@@ -1,43 +1,26 @@
 ---
 layout: home
-title: 简付系统
+title: EasyPay简付
 titleTemplate: 一站式解决支付系统
 
 hero:
-  name: 简付支付系统
-  text: 一点接入
-  textsuffix: 多渠道收付款
-  tagline: 一站式解决支付 | 多种的支付渠道 | 安全可靠 | 免签约 | 实时到账零延迟 | 智能风控 | 多平台适配  | 多种支付场景需求
+  name: EasyPay简付支付系统
+  text: 单点接入
+  textsuffix: 全方位覆盖多渠道收付业务
+  tagline: 便捷接入，全面支付解决方案，丰富支付渠道，安全保障，简化签约与快速到账，智能风控，多平台适配与多样化场景
 
   image:
-    src: index/backgrounderaser_1726813360.png
+    src: index/home.png
     alt: home
-
-  # prelink:
-  #   title: '🎉 活动不停歇，青云梯 双11 特惠折上折! </br>年付8折/2年付7折/3年付6折 配合优惠码折上折，最高可达48折<div><iconify-icon icon="eos-icons:hourglass" style="font-size: 1rem;"></iconify-icon> 活动时间: 即日起至 <span style="color: var(--vp-c-brand-3); font-weight: bold;">2024年11月17日23点59分</span></div>'
-  #   link: https://ivt01.qytaff.cc/register?aff=jjgD79Jd
-  #   target: _blank
 
   actions:
     - theme: brand
       text: 立即登录
       link: https://jf.hhddg.top/login
 
-    #    - theme: alt
-    #      text: 账号合租
-    #      link: /serve/sharing/account-sharing-guide
-    #
-    #    - theme: alt
-    #      text: 机场推荐
-    #      link: /serve/airport/qingyunti
-
     - theme: brand
-      text: ❤️ 立即注册
+      text: 立即注册
       link: https://jf.hhddg.top/register
-
-#    - theme: lumen theo
-#      text: 玄学宝典
-#      link: https://xx.theojs.cn
 
 features:
   - title: '<span style="display: inline-flex; align-items: center;"><img src="index/rule.png" style="height:27px; margin-right:0.5rem;"/>RuleProject社区应用</span>'

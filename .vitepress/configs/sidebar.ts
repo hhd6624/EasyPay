@@ -30,12 +30,12 @@ export function Sidebar_monitor(): SidebarItem[] {
 export function Sidebar_example(): SidebarItem[] {
   return [
     {
-      text: '接入示例',
+      text: 'RuleProject社区应用',
       collapsed: false,
       base: '/example/',
       items: [
-        { text: '规则支付演示', link: 'ruletree' },
-        { text: '规则支付配置', link: 'gz-config' }
+        { text: '支付演示', link: 'ruletree' },
+        { text: '配置演示', link: 'gz-config' }
       ]
     }
   ]
@@ -62,8 +62,8 @@ export function Sidebar_thoroughfare(): SidebarItem[] {
       collapsed: false,
       base: '/thoroughfare/summary/',
       items: [
-        { text: '支付通道概览', link: 'tutorial' },
-        { text: '支付宝公私匙申请', link: 'currency' },
+        { text: '支付配置', link: 'tutorial' },
+        { text: '支付宝私匙', link: 'currency' },
         { text: 'v免签源码', link: 'v-sign' },
         { text: '银联前置', link: 'union-pre-front' },
         { text: '京东收银台', link: 'jd-pay' }
