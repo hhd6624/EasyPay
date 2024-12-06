@@ -10,10 +10,10 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: '监控配置',
-    link: '/monitor/pc/three-net-monitor',
+    link: '/monitor/windows/windows-monitor',
     activeMatch: '^/monitor/'
   },
-  { text: '系统帮助', link: '/system/introduction', activeMatch: '^/system/' },
-  { text: '接入演示', link: '/example/ruleTree', activeMatch: '^/example/' },
-  { text: '云端配置', link: '/cloud/tutorial', activeMatch: '^/cloud/' }
+  { text: '系统配置', link: '/system/introduction', activeMatch: '^/system/' },
+  { text: '规则配置', link: '/example/ruleTree', activeMatch: '^/example/' },
+  { text: '云端服务', link: '/cloud/tutorial', activeMatch: '^/cloud/' }
 ]

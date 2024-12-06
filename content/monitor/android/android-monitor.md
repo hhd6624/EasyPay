@@ -73,8 +73,8 @@ Gitee仓库：https://gitee.com/pp/SmsForwarder/
 ## 发送通道
 
 **新增`发送通道`，选择`Webhook`类型，请求方式选择`POST`，在`WebHookServer`中填入`短信转发器通知地址`，点击保存**
-![QQ20240918-211343.png](/app/QQ20241118-201126.png)
-![QQ20240918-211343.png](/app/UOvscVy4ZjKdbRN.png)
+![QQ20240918-211343.png](/android/QQ20241118-201126.png)
+![QQ20240918-211343.png](/android/UOvscVy4ZjKdbRN.png)
 
 ## 转发规则
 
